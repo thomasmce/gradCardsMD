@@ -1,0 +1,88 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  font-family: sans-serif;
+  background-color: white;
+}
+body{
+  border: 0.1rem solid black;
+}
+canvas {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+
+h1{
+  padding: 0.5rem;
+  margin: 0;
+  font-size: 2rem;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+  line-height: 3.25rem;
+  font-size: 2rem;
+}
+
+.blackBg{
+  background-color: #000;
+}
+
+.marquee {
+  /* position: fixed; */
+  overflow: hidden;
+  margin: 0;
+  /* padding: 7px 0; */
+  font-size: 10rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-color: #000;
+  border-width: 0 0 0.15rem 0;
+  border-style: solid;
+  color: #000;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+hr{
+  padding: 0;
+  background-color: #000;
+  height: 0.1rem;
+}
+
+.flexParent{
+  display: flex;
+  margin: 0.75rem;
+}
+
+.textBox1{
+  padding: 0.5rem;
+  /* width: 27rem; */
+  /* flex-basis: 3; */
+  /* flex-grow: 2; */
+  /* background-color: grey; */
+}
+.textBox2{
+  font-size: 1rem;
+  padding: 0.5rem;
+  /* width: 27rem; */
+  /* flex-basis: 5; */
+  flex-shrink: 2;
+  /* background-color: grey; */
+}
+
+
+img{
+  border-top: 0.1rem solid black;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
